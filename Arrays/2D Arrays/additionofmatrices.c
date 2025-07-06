@@ -23,7 +23,7 @@ int main(){
     }
     printf("The sum of the arrays:\n");
     for(int i=0;i<r;i++){
-        for(int j=0;j<r;j++){
+        for(int j=0;j<c;j++){
             printf("%d   ",(arr[i][j]+brr[i][j]));
         }
         printf("\n\n");
