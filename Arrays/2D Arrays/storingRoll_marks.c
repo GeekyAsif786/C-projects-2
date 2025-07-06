@@ -1,3 +1,5 @@
+//storing the roll and marks entered by the user
+
 #include <stdio.h>
 int main(){
     int r,c;//int roll,marks;
