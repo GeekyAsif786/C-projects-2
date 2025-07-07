@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&r);
     printf("Enter the no. of columns:\n");
     scanf("%d",&c);
-    int arr[r][c];int indx; int Maxsum=0;
+    int arr[r][c];
     printf("Enter the array elements:\n");
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){

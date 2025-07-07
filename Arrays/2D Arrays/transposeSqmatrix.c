@@ -9,8 +9,9 @@ int main(){
     scanf("%d",&r);
     printf("Enter the no. of columns:\n");
     scanf("%d",&c);
-    int arr[r][c];int indx; int Maxsum=0;
+    int arr[r][c];
     printf("Enter the array elements:\n");
+    
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
             scanf("%d",&arr[i][j]);
@@ -18,10 +19,17 @@ int main(){
         printf("\n");
     }
 
+    for(int i=0;i<r;i++){
+        for(int j=i;j<c;j++){  //starting j from i so that the transpose starts where j=i
+            int temp=arr[i][j];
+            arr[i][j]=arr[j][i];
+            arr[j][i]=temp;
+        }
+    }
     printf("The transpose of the matrix is:\n");
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-            printf("%d  ",arr[j][i]);
+            printf("%d  ",arr[i][j]);
         }
         printf("\n");
     }
