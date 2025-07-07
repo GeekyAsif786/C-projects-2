@@ -19,6 +19,7 @@ int main(){
     }
     int max=arr[0][0]; //assigning the first value as max
     int min=arr[0][0]; //assigning the first value as min
+    
     int indxmaxrow=0; //assigning the coordinate of the 
     int indxmaxcol=1; //max and min values as random values
     int indxminrow=0; //before putting the actual 
