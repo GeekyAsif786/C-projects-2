@@ -17,12 +17,12 @@ int main(){
         }
         printf("\n");
     }
-    int max=arr[0][0];
-    int min=arr[0][0];
-    int indxmaxrow=0;
-    int indxmaxcol=1;
-    int indxminrow=0;
-    int indxmincol=1;
+    int max=arr[0][0]; //assigning the first value as max
+    int min=arr[0][0]; //assigning the first value as min
+    int indxmaxrow=0; //assigning the coordinate of the 
+    int indxmaxcol=1; //max and min values as random values
+    int indxminrow=0; //before putting the actual 
+    int indxmincol=1; //coordinates in the loop
 
 //Getting the maxiumum value
 
