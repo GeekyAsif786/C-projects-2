@@ -28,16 +28,16 @@ int main(){
         }
         printf("\n");
     }
-
+    printf("Wave matrix:\n");
     for(int i=0;i<r;i++){
         if(i%2 == 0){
-            for(int j=0;j<c;j++){  //starting j from i so that the transpose starts where j=i
+            for(int j=0;j<c;j++){  
                 printf("%d  ",arr[i][j]);
             }
         }
         else{
-            for(int j=c-1;j>=0;j--){  //starting j from i so that the transpose starts where j=i
-                printf("%d  ",arr[i][j]);
+            for(int j=c-1;j>=0;j--){
+               printf("%d  ",arr[i][j]);
             }
         }
         printf("\n");
