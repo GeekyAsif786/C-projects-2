@@ -1,4 +1,5 @@
 //Passing a structure as a function (declaring the structure globally)
+// Always remember that normally the parameters are passed by value in case of structures and not by reference...
 
 #include <stdio.h>
 
