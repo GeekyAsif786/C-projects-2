@@ -2,6 +2,7 @@
 //user defined function made to fetch the pointers passed by the main function...
 
 #include <stdio.h>
+#include <string.h>
 
 typedef struct person{
     int age;
